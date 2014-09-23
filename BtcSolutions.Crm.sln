@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6CD06D8A-76ED-4F42-B497-EFB90E0C6E72}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtcSolutions.Crm.Web", "BtcSolutions.Crm.Web\BtcSolutions.Crm.Web.csproj", "{2CD52BB5-21A3-47CE-BAD9-9DB266B33F45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Shared", "0 Shared", "{66BF4515-55C1-4410-BA1F-3DDB9EB36EAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 DataBase", "1 DataBase", "{613D6703-AFDE-4A84-9610-584F505976B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 FrontEnd", "3 FrontEnd", "{025885F8-D600-4C00-9D37-7C7BDAA0D3EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Business", "3 Business", "{37564A58-ED36-4F46-B34B-097F00470F7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtcSolutions.Shared", "Shared\BtcSolutions.Shared.csproj", "{ABC7D32F-150C-49B3-AD9C-DFE39D4690E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtcSolutions.DataBase.Connection", "BtcSolutions.DataBase\BtcSolutions.DataBase.Connection.csproj", "{969D6C57-A4F6-4B45-922A-75B581A253AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtcSolutions.DataBase.Domain", "BtcSolutions.DataBase.Domain\BtcSolutions.DataBase.Domain.csproj", "{E0F0C6F9-C3FD-4F92-83A1-3B4D39FC5B2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtcSolutions.Business.Repositories", "BtcSolutions.Business.Repositories\BtcSolutions.Business.Repositories.csproj", "{101FE6EB-B66C-4D60-8DCE-697D13F580AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtcSolutions.Business.Services", "BtcSolutions.Business.Services\BtcSolutions.Business.Services.csproj", "{CC44396F-9FDD-44FE-9FA9-A0C84B5CDD00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CD52BB5-21A3-47CE-BAD9-9DB266B33F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD52BB5-21A3-47CE-BAD9-9DB266B33F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD52BB5-21A3-47CE-BAD9-9DB266B33F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD52BB5-21A3-47CE-BAD9-9DB266B33F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC7D32F-150C-49B3-AD9C-DFE39D4690E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC7D32F-150C-49B3-AD9C-DFE39D4690E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC7D32F-150C-49B3-AD9C-DFE39D4690E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC7D32F-150C-49B3-AD9C-DFE39D4690E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969D6C57-A4F6-4B45-922A-75B581A253AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969D6C57-A4F6-4B45-922A-75B581A253AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969D6C57-A4F6-4B45-922A-75B581A253AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969D6C57-A4F6-4B45-922A-75B581A253AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F0C6F9-C3FD-4F92-83A1-3B4D39FC5B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F0C6F9-C3FD-4F92-83A1-3B4D39FC5B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F0C6F9-C3FD-4F92-83A1-3B4D39FC5B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F0C6F9-C3FD-4F92-83A1-3B4D39FC5B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101FE6EB-B66C-4D60-8DCE-697D13F580AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101FE6EB-B66C-4D60-8DCE-697D13F580AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101FE6EB-B66C-4D60-8DCE-697D13F580AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101FE6EB-B66C-4D60-8DCE-697D13F580AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC44396F-9FDD-44FE-9FA9-A0C84B5CDD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC44396F-9FDD-44FE-9FA9-A0C84B5CDD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC44396F-9FDD-44FE-9FA9-A0C84B5CDD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC44396F-9FDD-44FE-9FA9-A0C84B5CDD00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CD52BB5-21A3-47CE-BAD9-9DB266B33F45} = {025885F8-D600-4C00-9D37-7C7BDAA0D3EC}
+		{ABC7D32F-150C-49B3-AD9C-DFE39D4690E1} = {66BF4515-55C1-4410-BA1F-3DDB9EB36EAD}
+		{969D6C57-A4F6-4B45-922A-75B581A253AB} = {613D6703-AFDE-4A84-9610-584F505976B4}
+		{E0F0C6F9-C3FD-4F92-83A1-3B4D39FC5B2B} = {613D6703-AFDE-4A84-9610-584F505976B4}
+		{101FE6EB-B66C-4D60-8DCE-697D13F580AD} = {37564A58-ED36-4F46-B34B-097F00470F7B}
+		{CC44396F-9FDD-44FE-9FA9-A0C84B5CDD00} = {37564A58-ED36-4F46-B34B-097F00470F7B}
+	EndGlobalSection
+EndGlobal
