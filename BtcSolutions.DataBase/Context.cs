@@ -12,7 +12,7 @@ namespace BtcSolutions.DataBase.Connection
     public class Context : IdentityDbContext<MembershipUser>
     {
         public Context()
-            : base("DefaultConnection")
+            : base("default")
         {
             //Содаёт базу если её нет
             Database.SetInitializer(new DbInitializer());
